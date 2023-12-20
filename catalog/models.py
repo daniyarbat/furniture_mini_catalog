@@ -31,3 +31,16 @@ class Product(models.Model):
     class Meta:
         verbose_name = 'Товар'
         verbose_name_plural = 'Товары'
+
+
+class Contact(models.Model):
+    name = models.CharField(max_length=100, verbose_name='Имя')
+    email = models.EmailField(verbose_name='Email')
+    textarea = models.TextField(**NULLABLE, verbose_name='Сообщение')
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = 'контакт'
+        verbose_name_plural = 'контакты'

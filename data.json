@@ -1,0 +1,86 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 9,
+    "fields": {
+      "name": "Смартфон",
+      "description": null
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 10,
+    "fields": {
+      "name": "Ноутбук",
+      "description": null
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 11,
+    "fields": {
+      "name": "Планшет",
+      "description": null
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 12,
+    "fields": {
+      "name": "Смарт часы",
+      "description": null
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "name": "Iphone 15",
+      "description": "Iphone 15",
+      "photo": "",
+      "category": 9,
+      "price": 850,
+      "time_create": "2023-12-19T18:43:03.232Z",
+      "time_update": "2023-12-19T18:43:03.232Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "name": "Macbook Air",
+      "description": "Macbook Air 2023",
+      "photo": "",
+      "category": 10,
+      "price": null,
+      "time_create": "2023-12-19T18:43:26.955Z",
+      "time_update": "2023-12-19T18:43:26.955Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "name": "Apple Watch SE",
+      "description": "Apple Watch SE",
+      "photo": "",
+      "category": 12,
+      "price": null,
+      "time_create": "2023-12-19T18:43:50.344Z",
+      "time_update": "2023-12-19T18:43:50.344Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+      "name": "Ipad 11",
+      "description": "Ipad 11",
+      "photo": "",
+      "category": 11,
+      "price": null,
+      "time_create": "2023-12-19T18:44:16.499Z",
+      "time_update": "2023-12-19T18:44:16.499Z"
+    }
+  }
+]
