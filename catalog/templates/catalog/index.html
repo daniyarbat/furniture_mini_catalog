@@ -1,7 +1,20 @@
 {%  extends 'catalog/base.html' %}
+{% load static %}
+{% load media_tag %}
 
 {% block content %}
-    {% for object in object_list %}
+    {% for object in page_object %}
         {% include 'catalog/includes/inc_item.html' %}
+        <!-- <div class="text-center">
+            <span class="step-links">
+            {% if page_object.has_previous %}
+                <a class="btn btn-primary d-inline-flex align-items-center"
+                   href="?page=1">&laquo; Первая</a>
+                <a class="btn btn-primary d-inline-flex align-items-center"
+                   href="?page={{ page_object.previous_page_number }}">Предыдущая</a>
+            {% endif %}
+            </span>
+        </div> -->
     {%  endfor %}
+
 {% endblock %}

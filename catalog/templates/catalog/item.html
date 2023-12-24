@@ -1,0 +1,26 @@
+{% extends 'catalog/base.html' %}
+{% load media_tag %}
+{% load static %}
+
+{% block content %}
+    <div class="col-12 col-md-6 col-lg-6 mb-5 mb-md-0">
+        <div class="product-item-inner">
+            {% if item.photo %}
+                <img src="{% mediapath item.photo %}" alt="{{ item }}"/>
+            {% else %}
+                <img src="{% static 'img/product-1.png.png' %}" alt="{{ object }}"/>
+            {% endif %}
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-6 mb-5 mb-md-0">
+        <div class="product-item-inner">
+
+            <h3 class="product-description m-5">{{ item.name }}</h3>
+            <p class="product-description px-5">{{ item.category }}</p>
+            <p class="product-description px-5">{{ item.category.description }}</p>
+            <p class="product-description px-5">{{ item.description }}</p>
+            <p class="product-description px-5">{{ item.price }}</p>
+            <a href="" class="btn btn-secondary me-2 mx-5">Купить</a>
+        </div>
+    </div>
+{% endblock %}

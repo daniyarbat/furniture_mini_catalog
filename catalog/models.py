@@ -36,6 +36,7 @@ class Product(models.Model):
 class Contact(models.Model):
     name = models.CharField(max_length=100, verbose_name='Имя')
     email = models.EmailField(verbose_name='Email')
+    phone = models.CharField(**NULLABLE, max_length=100, verbose_name='Телефон')
     textarea = models.TextField(**NULLABLE, verbose_name='Сообщение')
 
     def __str__(self):
