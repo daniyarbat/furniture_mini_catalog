@@ -7,18 +7,18 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         categories_list = [
-            {'name': 'Футболка', 'description': 'Какая-то Футболка'},
-            {'name': 'Свитшот', 'description': 'Какой-то Свитшот'},
-            {'name': 'Худи', 'description': 'Какое-то Худи'},
-            {'name': 'Кроссовки', 'description': 'Какие-то Кроссовки'},
+            {'name': 'Стул', 'description': 'Стулья для гостиной и кухни'},
+            {'name': 'Кресло', 'description': 'Кресла для дома, офиса и кафе'},
+            {'name': 'Софа', 'description': 'Диваны для жилых и офисных помещений'},
+            {'name': 'Диван', 'description': 'Диваны для гостиных и спален'},
         ]
 
         product_list = [
-            {'name': 'Nike', 'description': 'Фирма Nike', 'category_id': 1, 'price': '10000'},
-            {'name': 'Adidas', 'description': 'Фирма Adidas', 'category_id': 2, 'price': '11000'},
-            {'name': 'Puma', 'description': 'Фирма Puma', 'category_id': 3, 'price': '12000'},
-            {'name': 'New balance', 'description': 'Фирма New balance', 'category_id': 2, 'price': '13000'},
-            {'name': 'Reebok', 'description': 'Фирма Reebok', 'category_id': 4, 'price': '9000'},
+            {'name': 'Torino', 'description': 'Функциональная модель для разнообразных интерьерных решений', 'category_id': 1, 'price': '440.00'},
+            {'name': 'Napoli', 'description': 'Функциональная и лаконичная модель для кофеен и ресторанов', 'category_id': 2, 'price': '590.00'},
+            {'name': 'Milano', 'description': 'Роскошная модель для изысканных гостиных и офисных помещений', 'category_id': 3, 'price': '890.00'},
+            {'name': 'Firenze', 'description': 'Функциональная модель для разнообразных интерьерных решений', 'category_id': 2, 'price': '690.00'},
+            {'name': 'Venezia', 'description': 'Изысканная модель для уютных гостиных и гостевых комнат', 'category_id': 4, 'price': '1190.00'},
         ]
 
         for model in (Product, Category):
