@@ -8,7 +8,7 @@
         <div class="block">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-8 pb-4">
-                    {% for contact in contacts %}
+                    {% for object in object_list %}
                     <div class="row mb-5">
                         <div class="col-lg-4">
                             <div class="service no-shadow align-items-center link horizontal d-flex active" data-aos="fade-left"
@@ -20,7 +20,7 @@
                                     </svg>
                                 </div> <!-- /.icon -->
                                 <div class="service-contents">
-                                    <p>{{ contact.name }}</p>
+                                    <p>{{ object.name }}</p>
                                 </div> <!-- /.service-contents-->
                             </div> <!-- /.service -->
                         </div>
@@ -34,7 +34,7 @@
                                     </svg>
                                 </div> <!-- /.icon -->
                                 <div class="service-contents">
-                                    <p>{{ contact.email }}</p>
+                                    <p>{{ object.email }}</p>
                                 </div> <!-- /.service-contents-->
                             </div> <!-- /.service -->
                         </div>
@@ -49,7 +49,7 @@
                                     </svg>
                                 </div> <!-- /.icon -->
                                 <div class="service-contents">
-                                    <p>{{ contact.phone }}</p>
+                                    <p>{{ object.phone }}</p>
                                 </div> <!-- /.service-contents-->
                             </div> <!-- /.service -->
                         </div>

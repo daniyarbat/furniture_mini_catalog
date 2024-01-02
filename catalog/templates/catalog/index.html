@@ -3,7 +3,7 @@
 {% load media_tag %}
 
 {% block content %}
-    {% for object in page_object %}
+    {% for object in object_list %}
         {% include 'catalog/includes/inc_item.html' %}
     {%  endfor %}
     {% include 'catalog/includes/inc_pagination.html' %}
