@@ -1,0 +1,32 @@
+{%  extends 'catalog/base.html' %}
+{% load static %}
+{% load media_tag %}
+
+{% block content %}
+        <div class="col-12 mb-4">
+            <a class="p-2 btn btn-outline-warning" href="{% url 'blog:create_article' %}">Добавить статью</a>
+        </div>
+        {% for object in object_list %}
+            <div class="col-12 col-sm-6 col-md-4 mb-5">
+                <div class="post-entry">
+                    <a href="{% url 'blog:view_article' object.slug %}" class="post-thumbnail">
+                        {% if object.preview %}
+                            <img src="{% mediapath object.preview %}" alt="{{ object }}" class="img-fluid"/>
+                        {% else %}
+                            <img src="{% static 'img/default.jpg' %}" alt="{{ object }}" class="img-fluid"/>
+                        {% endif %}
+                    </a>
+                    <div class="post-content-entry">
+                        <h3><a href="{% url 'blog:view_article' object.slug %}">{{ object }}</a></h3>
+                        <p>{{ object.content|truncatechars:100 }}</p>
+                        <div class="meta">
+                            <span>by <strong>Admin</strong></span> <span>on <strong>{{ object.created_at }}</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {%  endfor %}
+    
+    {% include 'catalog/includes/inc_pagination.html' %}
+
+{% endblock %}

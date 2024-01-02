@@ -1,0 +1,27 @@
+<div class="text-center mt-5">
+        <span class="step-links">
+            {% if page_object.has_previous %}
+                <a class="btn btn-primary d-inline-flex align-items-center"
+                   href="?page=1">Первая</a>
+                <a class="btn btn-primary d-inline-flex align-items-center"
+                   href="?page={{ page_object.previous_page_number }}">&laquo;</a>
+            {% else %}
+                <span class="btn btn-secondary disabled d-inline-flex align-items-center">Первая</span>
+                <span class="btn btn-secondary disabled d-inline-flex align-items-center">&laquo;</span>
+            {% endif %}
+
+            <span class="current">
+                {{ page_object.number }} из {{ page_object.paginator.num_pages }}
+            </span>
+
+            {% if page_object.has_next %}
+                <a class="btn btn-primary d-inline-flex align-items-center"
+                   href="?page={{ page_object.next_page_number }}">&raquo;</a>
+                <a class="btn btn-primary d-inline-flex align-items-center"
+                   href="?page={{ page_object.paginator.num_pages }}">Последняя</a>
+            {% else %}
+                <span class="btn btn-secondary disabled d-inline-flex align-items-center">&raquo;</span>
+                <span class="btn btn-secondary disabled d-inline-flex align-items-center">Последняя</span>
+            {% endif %}
+        </span>
+</div>
