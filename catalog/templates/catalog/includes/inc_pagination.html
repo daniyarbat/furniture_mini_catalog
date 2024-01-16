@@ -1,4 +1,5 @@
-<div class="text-center mt-5">
+<div class="col-12">
+    <div class="text-center mt-5">
         {% if page_obj.has_previous %}
             <a class="btn btn-primary d-inline-flex align-items-center"
                href="?page=1">&laquo; Первая</a>
@@ -11,4 +12,5 @@
             <a class="btn btn-primary d-inline-flex align-items-center"
                href="?page={{ page_obj.paginator.num_pages }}">Последняя &raquo;</a>
         {% endif %}
+    </div>
 </div>
