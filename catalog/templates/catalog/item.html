@@ -5,8 +5,8 @@
 {% block content %}
     <div class="col-12 col-md-6 col-lg-6 mb-5 mb-md-0">
         <div class="product-item-inner">
-            {% if item.photo %}
-                <img src="{% mediapath item.photo %}" alt="{{ item }}"/>
+            {% if object.photo %}
+                <img src="{% mediapath object.photo %}" alt="{{ object }}"/>
             {% else %}
                 <img src="{% static 'img/product-1.png.png' %}" alt="{{ object }}"/>
             {% endif %}
@@ -15,12 +15,27 @@
     <div class="col-12 col-md-6 col-lg-6 mb-5 mb-md-0">
         <div class="product-item-inner">
 
-            <h3 class="product-description m-5">{{ item.name }}</h3>
-            <p class="product-description px-5">{{ item.category }}</p>
-            <p class="product-description px-5">{{ item.category.description }}</p>
-            <p class="product-description px-5">{{ item.description }}</p>
-            <p class="product-description px-5">{{ item.price }}</p>
-            <a href="" class="btn btn-secondary me-2 mx-5">Купить</a>
+            <h3 class="product-description m-5">{{ object.name }}</h3>
+            <p class="product-description px-5">{{ object.category }}</p>
+            <p class="product-description px-5">{{ object.category.description }}</p>
+            <p class="product-description px-5">{{ object.description }}</p>
+            <p class="product-description px-5">{{ object.price }}</p>
+            {% if version %}
+                <small class="d-block mb-3 text-muted">Актуальная версия:
+                    <!--uncomment cycle and separator if more than one actual version available-->
+                    <!--{% for v in version %}-->
+                        {{ v.number }}
+                        {% if v.title %}
+                            &laquo;{{ v.title }}&raquo;
+                        {% endif %}
+                        <!--{% if not forloop.last %}|{% endif %}-->
+                        <!--{% endfor %}-->
+                </small>
+            {% endif %}
+            <a href="{% url 'catalog:item_update' object.pk %}"
+               class="m-1 btn btn-sm btn-outline-warning">Редактировать товар</a>
+            <a href="{% url 'catalog:item_delete' object.pk %}"
+               class="m-1 btn btn-sm btn-outline-danger">Удалить товар</a>
         </div>
     </div>
 {% endblock %}

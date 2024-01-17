@@ -8,21 +8,25 @@ class CategoryAdmin(admin.ModelAdmin):
 	list_display = ('pk', 'name',)
 
 
+class VersionInline(admin.StackedInline):
+	model = Version
+	extra = 1
+	can_delete = False
+	verbose_name = 'версия'
+	verbose_name_plural = 'версии'
+
+
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
 	list_display = ('pk', 'name', 'price', 'category',)
 	list_filter = ('category',)
 	search_fields = ('name', 'description')
+	inlines = [
+		VersionInline,
+	]
 
 
 @admin.register(Contact)
 class ContactAdmin(admin.ModelAdmin):
 	list_display = ('name', 'email',)
 	search_fields = ('name', 'email',)
-
-
-@admin.register(Version)
-class VersionAdmin(admin.ModelAdmin):
-	list_display = ('pk', 'product', 'version_number', 'name', 'is_version_active',)
-	list_filter = ('product', 'version_number', 'name', 'is_version_active',)
-	search_fields = ('product', 'version_number', 'name',)

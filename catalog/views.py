@@ -1,55 +1,98 @@
-from django.shortcuts import render, get_object_or_404
-from django.core.paginator import Paginator
-from django.views.generic import ListView, DetailView
-from catalog.models import Product, Contact
+from django.forms import inlineformset_factory
+from django.urls import reverse, reverse_lazy
+from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
+from catalog.forms import ProductForm, VersionForm
+from catalog.models import Product, Contact, Version
 
 
-def index(request):
-    product_list = Product.objects.all().order_by('pk')
-    paginator = Paginator(product_list, 6)
-    page_number = request.GET.get("page")
-    page_object = paginator.get_page(page_number)
-    context = {
-        "page_object": page_object,
-        'title': 'Мягкая мебель'
-    }
-    return render(request, 'catalog/index.html', context)
-
-
-def show_item(request, product_pk):
-    item = get_object_or_404(Product, pk=product_pk)
-    context = {
-        'item': item,
-        'title': item
-    }
-    return render(request, 'catalog/item.html', context)
-
-
-class ProductList(ListView):
+class ProductListView(ListView):
     paginate_by = 6
     model = Product
     template_name = 'catalog/index.html'
-    extra_context = {'title': 'Мягкая мебель'}
+    ordering = ['-pk']
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = 'Каталог товаров'
+        return context
 
 
-class ProductDetail(DetailView):
+class ProductDetailView(DetailView):
     model = Product
     template_name = 'catalog/item.html'
 
-    def get_queryset(self):
-        queryset = super().get_queryset()
-        queryset = queryset.filter(id=self.kwargs.get('pk'))
-        return queryset
-
-    def get_context_data(self, *args, **kwargs):
-        context_data = super().get_context_data(*args, **kwargs)
-        item = Product.objects.get(pk=self.kwargs.get('pk'))
-        context_data['item'] = item
-        context_data['title'] = item
-        return context_data
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = str(context['object'])
+        context['version'] = Version.objects.filter(product=self.kwargs['pk'], is_actual=True).order_by('-pk')
+        return context
 
 
-class ContactsView(ListView):
+class ProductCreateView(CreateView):
+    model = Product
+    form_class = ProductForm
+    success_url = reverse_lazy('catalog:index')
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = 'Создание товара'
+        VersionFormset = inlineformset_factory(Product, Version, form=VersionForm, extra=1)
+        if self.request.method == 'POST':
+            context['formset'] = VersionFormset(self.request.POST)
+        else:
+            context['formset'] = VersionFormset()
+        return context
+
+    def form_valid(self, form):
+        formset = self.get_context_data()['formset']
+        self.object = form.save()
+        if formset.is_valid():
+            formset.instance = self.object
+            formset.save()
+        return super().form_valid(form)
+
+
+class ProductUpdateView(UpdateView):
+    model = Product
+    form_class = ProductForm
+
+    def get_success_url(self):
+        return reverse('catalog:item', kwargs={'pk': self.object.pk})
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = 'Изменение товара'
+        VersionFormset = inlineformset_factory(Product, Version, form=VersionForm, extra=1)
+        if self.request.method == 'POST':
+            context['formset'] = VersionFormset(self.request.POST, instance=self.object)
+        else:
+            context['formset'] = VersionFormset(instance=self.object)
+        return context
+
+    def form_valid(self, form):
+        formset = self.get_context_data().get('formset')
+        if formset.is_valid():
+            actual_version_count = 0
+            for f in formset:
+                if f.cleaned_data.get('is_actual'):
+                    actual_version_count += 1
+                    if actual_version_count > 1:
+                        form.add_error(None, "Вы можете выбрать только одну активную версию")
+                        return self.form_invalid(form=form)
+            formset.save()
+        return super().form_valid(form)
+
+
+class ProductDeleteView(DeleteView):
+    model = Product
+    success_url = reverse_lazy('catalog:index')
+
+
+class ContactListView(ListView):
     model = Contact
     template_name = 'catalog/contacts.html'
-    extra_context = {'title': 'Контакты'}
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = 'Контакты'
+        return context
