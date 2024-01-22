@@ -1,0 +1,1739 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-12-19T17:48:10.583Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "��������",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-12-19T17:48:47.416Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Iphone",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-12-19T17:49:48.127Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Samsung S23",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-12-19T17:55:57.671Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "�������",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-12-19T17:56:13.503Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "�������",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-12-19T18:39:43.677Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "��������",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-12-19T18:39:43.760Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "�������",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-12-19T18:39:43.762Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "�������",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-12-19T18:40:57.665Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "����� ����",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-12-19T18:40:57.669Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "�������",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-12-19T18:40:57.670Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "�������",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-12-19T18:40:57.671Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "�������",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-12-19T18:40:57.672Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "��������",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-12-19T18:41:08.922Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "��������",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-12-19T18:41:36.588Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "��������",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-12-19T18:41:51.259Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "�������",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-12-19T18:42:00.978Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "�������",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-12-19T18:42:19.915Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": "����� ����",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-12-19T18:43:03.259Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Iphone 15",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-12-19T18:43:26.955Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Macbook Air",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-12-19T18:43:50.345Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Apple Watch SE",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-12-19T18:44:16.500Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Ipad 11",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-12-23T16:21:41.902Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Reebok",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-12-23T16:21:42.078Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "New balance",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-12-23T16:21:42.079Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Puma",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-12-23T16:21:42.080Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Adidas",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-12-23T16:21:42.081Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Nike",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-12-23T16:21:49.815Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "���������",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-12-23T16:21:49.816Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "����",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-12-23T16:21:49.817Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "�������",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2023-12-23T16:21:49.819Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "��������",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2023-12-24T07:56:41.894Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Venezia",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2023-12-24T07:56:53.247Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Firenze",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2023-12-24T07:57:02.960Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Milano",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2023-12-24T07:57:16.352Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Napoli",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2023-12-24T07:57:22.745Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Torino",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2023-12-24T09:55:58.534Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Milano",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2023-12-24T09:57:44.577Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "������",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2023-12-24T09:57:59.566Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "������ Napoli",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2023-12-24T09:58:09.735Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Napoli",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2023-12-24T09:58:49.860Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Torino",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2023-12-24T09:59:54.576Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Venezia",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2023-12-24T17:46:12.986Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Torino",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2023-12-24T17:46:22.660Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Torino",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2023-12-24T17:46:36.094Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Torino",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2023-12-24T17:47:02.650Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Torino",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2023-12-24T17:47:41.130Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Milano",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2023-12-24T17:57:13.942Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Milano",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2023-12-24T17:57:52.277Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Napoli",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2023-12-24T17:57:59.660Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Torino",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2023-12-24T17:58:10.809Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Venezia",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2023-12-24T17:59:07.883Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Milano",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\", \"\\u0426\\u0435\\u043d\\u0430\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2023-12-24T17:59:19.338Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Venezia",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2023-12-24T18:51:05.175Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "���������, ������, �����",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2023-12-24T19:07:55.915Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Venezia",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2023-12-24T19:08:34.789Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Firenze",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2023-12-24T19:10:23.825Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Firenze",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2023-12-24T19:10:42.334Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Venezia",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2023-12-24T19:10:50.823Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Venezia",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2023-12-24T19:11:11.438Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Firenze",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2023-12-31T10:21:45.495Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "��� ������� �����",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2024-01-02T14:22:33.225Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "������������ ����� �������: ��� ������� ��������� ��� ���",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2024-01-02T15:12:24.707Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "����� ��� �������: ����������� �� ������ � �����",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2024-01-02T15:46:13.421Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "��� ������� �����",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2024-01-02T15:46:47.120Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "��� ���� ������",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2024-01-02T15:47:39.914Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "��� ������ ������",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2024-01-02T15:48:14.104Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "��� ������ ������",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2024-01-02T15:48:43.381Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "���� ������",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2024-01-02T15:54:47.910Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Firenze",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2024-01-02T15:56:05.678Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Modena",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2024-01-02T15:56:43.104Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Monza",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2024-01-02T17:05:49.786Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Monza",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2024-01-02T17:06:12.570Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "���� ������",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2024-01-02T17:06:30.810Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "���� ������",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add ���������",
+      "content_type": 7,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change ���������",
+      "content_type": 7,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete ���������",
+      "content_type": 7,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view ���������",
+      "content_type": 7,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add �����",
+      "content_type": 8,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change �����",
+      "content_type": 8,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete �����",
+      "content_type": 8,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view �����",
+      "content_type": 8,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add �������",
+      "content_type": 9,
+      "codename": "add_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change �������",
+      "content_type": 9,
+      "codename": "change_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete �������",
+      "content_type": 9,
+      "codename": "delete_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view �������",
+      "content_type": 9,
+      "codename": "view_contact"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add ������",
+      "content_type": 10,
+      "codename": "add_article"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change ������",
+      "content_type": 10,
+      "codename": "change_article"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete ������",
+      "content_type": 10,
+      "codename": "delete_article"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view ������",
+      "content_type": 10,
+      "codename": "view_article"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add ������",
+      "content_type": 11,
+      "codename": "add_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change ������",
+      "content_type": 11,
+      "codename": "change_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete ������",
+      "content_type": 11,
+      "codename": "delete_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view ������",
+      "content_type": 11,
+      "codename": "view_version"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$ZvgMeZf34L0Z4jYBzkgXbY$Z3QxpTXX1AAcDgFB2NWODf8LX/LW11iuM95rRX+M8Us=",
+      "last_login": "2024-01-16T10:08:44.140Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-12-19T17:16:35.372Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "catalog",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "catalog",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "catalog",
+      "model": "contact"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "blog",
+      "model": "article"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "catalog",
+      "model": "version"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "4mg8atwfbho8hklocqakfan03nisczij",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2pAOHYRx6b5nIMCAVA0kpV0Z765NutDtf-_9l3B-W4vbelrczOIiQJx-t-DjI9Ud8N3XW5Ox1XWZg9wVedAup8bpeT3cv4Pie_nWCTKQVRZ0NqQg0GgGcyZmslEz6TEG8Iia4pBZq8wYEmq0wTCCHaN4fwDFzTdg:1rPgNA:nP1UCkwlVo8qJvGkVdGS31bOtvDakgnz7vGDUdozFPw",
+      "expire_date": "2024-01-30T10:08:44.161Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "bwdh2w6j0k2inpj39szko94qqqqxxaxl",
+    "fields": {
+      "session_data": ".eJxVjDEOwjAMRe-SGUU0SuyEkZ0zRI7t0AJqpaadKu4OlTrA-t97fzOZ1qXPa9M5D2IupjOn360QP3XcgTxovE-Wp3GZh2J3xR602dsk-roe7t9BT63_1km4yjl05B16x5AQlAikCnj0XWBArooOE7CLJcQSlZJHdRWLIzDvD-yBOCI:1rFe0C:r_WtFh1g_fQUcRYeKCbxBBCNy_a6Zdgq8QAOygcv2vc",
+      "expire_date": "2024-01-02T17:35:32.083Z"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "����",
+      "description": "������ ��� �������� � �����"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "������",
+      "description": "������ ��� ����, ����� � ����"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "����",
+      "description": "������ ��� ����� � ������� ���������"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "name": "�����",
+      "description": "������ ��� �������� � ������"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Milano",
+      "description": "���������� � ���������� ����� Milano ��� ����� ������� ��� � ��������",
+      "photo": "photos/product-2.png",
+      "category": 4,
+      "price": 890.0,
+      "time_create": "2023-12-24T09:55:58.499Z",
+      "time_update": "2023-12-24T17:59:07.882Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Napoli",
+      "description": "�������������� � ���������� ������ ������ ��� ������ � ����������",
+      "photo": "photos/product-1.png",
+      "category": 2,
+      "price": 790.0,
+      "time_create": "2023-12-24T09:57:44.577Z",
+      "time_update": "2023-12-24T17:57:52.277Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "name": "Torino",
+      "description": "�������������� ������ ��� ������������� ����������� �������",
+      "photo": "photos/product-3.png",
+      "category": 1,
+      "price": 440.0,
+      "time_create": "2023-12-24T09:58:49.859Z",
+      "time_update": "2023-12-24T17:57:59.660Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "name": "Venezia",
+      "description": "���������� ������ ��� ������ �������� � �������� ������",
+      "photo": "photos/sofa_BnwnZsp.png",
+      "category": 3,
+      "price": 990.0,
+      "time_create": "2023-12-24T09:59:54.576Z",
+      "time_update": "2023-12-24T19:10:50.823Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "name": "Firenze",
+      "description": "���������� ������ ��� ������ �������� � �������� ������",
+      "photo": "photos/sofa_sR6kuB5.png",
+      "category": 3,
+      "price": 990.0,
+      "time_create": "2023-12-24T19:08:34.777Z",
+      "time_update": "2024-01-02T15:54:47.834Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+      "name": "Modena",
+      "description": "���������� ������ ��� ������ �������� � �������� ������",
+      "photo": "photos/product-2_6AoYUgS.png",
+      "category": 3,
+      "price": 890.0,
+      "time_create": "2024-01-02T15:56:05.653Z",
+      "time_update": "2024-01-17T10:07:36.980Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 10,
+    "fields": {
+      "name": "����",
+      "description": "���� �������� �� ����",
+      "photo": "photos/product-3_YMRry6e.png",
+      "category": 1,
+      "price": 200.0,
+      "time_create": "2024-01-16T14:42:19.291Z",
+      "time_update": "2024-01-17T10:06:12.096Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 11,
+    "fields": {
+      "name": "����",
+      "description": "����",
+      "photo": "photos/product-1_1E4oB0E.png",
+      "category": 1,
+      "price": 250.0,
+      "time_create": "2024-01-16T15:00:10.551Z",
+      "time_update": "2024-01-17T10:01:08.018Z"
+    }
+  },
+  {
+    "model": "catalog.contact",
+    "pk": 1,
+    "fields": {
+      "name": "���������, ������, �����",
+      "email": "mail@furni.kz",
+      "phone": "+7 777 888 00 99",
+      "textarea": ""
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 1,
+    "fields": {
+      "product": 11,
+      "number": 1,
+      "title": "���� ������",
+      "is_actual": true
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 2,
+    "fields": {
+      "product": 10,
+      "number": 2,
+      "title": null,
+      "is_actual": true
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 1,
+    "fields": {
+      "title": "��� ������� �����",
+      "slug": "kak-vyibrat-divan",
+      "content": "����� ������ � ������ ���� ��� ������������ ��������� ������ ���� ��� �����. ��� ����-������ ����� �������� � ���� ��� �������� ������� ��� ���, ��� ���������� ���������� �����. ��� ��������� ���� ��� ��������� ������:\r\n\r\n1. ��������: �������� ����������� ������ ������\r\n��������, ������ ���������� ����� ������ ����� �������� ��� �������� � �������� � ����.\r\n���������� �������� ��������, �������� �� �����, ����� ��� �����, ������, �������� � ����������������.\r\n2. ����� � ������:\r\n���������� � ��������� ������ ������� (������������, �����������, ����������������� � �. �.).\r\n�����������, ��� ����� ����� ������������� ��������� ������ � ������ ������� ���������.\r\n3. ������ � ���������:\r\n���������� �������� �� ������ ����������� ������� ������ ��� ������������� ���������.\r\n�������� �������� �� �������� ����������� ��������� ����� ������� � ������ �������.\r\n4. ��������� � �����:\r\n�������� ��������� ��������� ��� ������ (����, �����, ����������) � �� ������������/����������.\r\n����� ������������ �� ������ ���������, �������� ����������� ������������� (����, �������� ��������).\r\n5. ����������������:\r\n���������� � �������������� �������������� ������������, ����� ��� ���������� ���������, ����� ��� ��������, ������������ ������������.\r\n�����������, ��� ���������� ����� ���������������� ����� �������� �������� ������������� ������.\r\n6. �������� � �������������:\r\n�������� �������� ������ ������ �� ��������� �������������.\r\n����� ������ �� �������� �������� �����������, ���������� � ������ ������.\r\n7. ������ � �������������:\r\n���������� ������������ �� ����, ��� ������� �����, ������� ������������� �������.\r\n�����������, ��� ���������� � ������������ ����� ����� �������� � ��� ������������� � ������������ ��������.\r\n8. ������ � ��������:\r\n���������� ���� ����������� ��������� � �������� �� ������ �����������.\r\n���������� �������� ������������ ������� � ��������� ����� ��������.\r\n9. ���� �� �������:\r\n����� ������ �� ����� �� �������, ����� �� ������ ����� � ��������� � �������� ���������.\r\n10. ����������:\r\n���������� �������� ������� � ���������� ��������� � ������������� ������� � ������ ������.\r\n�� ��������� �������� ������������ ����������� �������, ����� ���� ������ ���� ��������� � ���������������.",
+      "preview": "blog_img/post2.jpg",
+      "is_published": true,
+      "created_at": "2023-12-31T10:21:45.316Z",
+      "views": 15
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 2,
+    "fields": {
+      "title": "������������ ����� �������: ��� ������� ��������� ��� ���",
+      "slug": "raznoobrazie-vidov-divanov-kak-vyibrat-idealnyij-dlya-vas",
+      "content": "����� � ��� �� ������ ������, ��� ���������� ����������� ��������� �������, ��� �� ��������� � ��������� ����� � ������ � ��������. ������������ ����� ������� ������������� ������� �����, �������� ������� ��������� ������, ������� ������������� �� �����, ����� � ������������. ������� ���������� ��������� ���������� ���� �������:\r\n\r\n1. ������������ �����\r\n������������ ����� � ��� ������ ��������, ������� �������� ��� ��������� ����������. �� ����� ����� ������ �����, �������� ������������ � ������� �����. ����� ����� ������� ������� ������������ � ������������.\r\n\r\n2. ������� �����\r\n������� ����� � �������� ������� ��� ���������� ������. �� ����������� ���������� ������� ������������ � ������������� ������� ������� �������. ������� ������ ����� ���� ��� ����������, ��� � ������������, � ����������� �� ����� ������������.\r\n\r\n3. �����-�������\r\n��������� ������� ��� ���, ��� ����� ��������� ������������. �����-������� ����� ���������������� � ������� �������� �����������, ������������ ������ ������ ����� ��� �������.\r\n\r\n4. ��������� ������\r\n��������� ������ ������������� ����������� ��������� ���������� ����������, ����� ������������ �������� ����� ������������. �� ������ �������� ������������� ��������� ��������, ����� ������� �����, �������� ���������� ��� ������ ������������.\r\n\r\n5. ������ � ���������� �����������\r\n������ � ���������� ����������� �������� �������������� ������������, ����� ��� ���������� ��������. ��� �������� ������ � ��������� ����������, ��� ������ ���������� ���� ����� ��������.\r\n\r\n6. �������\r\n���������� � �������, ������� � ��� ����� � ������� ��������, ������ ��� ������. �� �������� ����������� � ����������� ��������� � ������� ��������� ������� � ����.\r\n\r\n����� ������ ������� �� ����� ������������ �� �����, ������������ � ���������������� � ������� ���������. ���������� ����� � ������ ������ ������ ����� � �������� ��������� ����� ��� ������ � ����� ����.",
+      "preview": "blog_img/post1.jpg",
+      "is_published": true,
+      "created_at": "2024-01-02T14:22:33.117Z",
+      "views": 3
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 3,
+    "fields": {
+      "title": "����� ��� �������: ����������� �� ������ � �����",
+      "slug": "tkani-dlya-divanov-rukovodstvo-po-vyiboru-i-uhodu",
+      "content": "����� ���������� ����� ��� ������ �� ������ ������ �� ������� ��� ������, �� � ���������� �� �������, ��������� � �������� �����. � ���� ������ �� ���������� ��������� ���� ������ ��� ������� � ����� ������������ �� �� ������ � �����.\r\n\r\n1. ������\r\n��������� ����� �������� ���������� ������� ��������� ����� �������� � ������� ���������. ������ ��� ����� ���� ����� ����������� � ������ � �����������. ������ ������ ������ ���������� � ������� ��������� ��� ��������� ���������.\r\n\r\n2. ���\r\n����� �� ���� �������� ������������, ���������� �����, ��� ������� ������ �������������� �����. ��� �������� � ������, �� ����� ���� ��������� ��������.\r\n\r\n3. ������\r\n��������� ����� ������������ ����� � �������. ��� ����� ���� ������������ ��� ���������� � ������� ��������� ��� ���������� ������ � �����.\r\n\r\n4. �������\r\n������� � ��� ������ ����� � �������� ������, ��������� ������ ��������� ���. ��� ����� ������������ � ������������ ���������� � ��������� ���������������� ������.\r\n\r\n5. ����������\r\n���������� � ��� ������������� �����, ������������� �� ������ �������. ��� ��������� � ������ � ����� ������, ��� ������ �� ��������� ������� ��� ����� � ������ ��� �������� ��������.\r\n\r\n6. ����\r\n������ � ������� ������� ������� ��������� ������������ � �������������. ���� � �������� ������� ����������� ����������� ����� � ������.\r\n\r\n��� ������� �����:\r\n������ ����� ���������: �������� �����, ��������������� ������ ����� ���������.\r\n\r\n������ ����� �����: ���� � ��� ���� ���� ��� �������� ��������, �������� ���������� � ������ � ����� �������� �����.\r\n\r\n����������� ���������: ��������� ������� ��������� �����, �������� ���� ����� ����� �������������� �����.\r\n\r\n���� �� ������:\r\n���������� ������: ���������� �������� ������ ���������, ����� �������� ��������� ����.\r\n\r\n��������� �����: ���������� �� ����� ����������, ��������� �������� ��� ������, ��������������� ��� ����������� ���� �����.\r\n\r\n���������������� ������: ��������� ��������� ���������������� ������, �������� ��� ���������� ������.\r\n\r\n����� ����� ��� ������ � ������ �������, ������� ������ �� ������������� � ������� ��� ������. ���������� ������������ �� ����� ������� ������������ ��� ����� � �������� ��������� �� ���������� ������ ���.",
+      "preview": "blog_img/post4.jpg",
+      "is_published": true,
+      "created_at": "2024-01-02T15:12:24.706Z",
+      "views": 2
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 4,
+    "fields": {
+      "title": "��� ���� ������",
+      "slug": "esche-odna-statya",
+      "content": "����� ������ � ������ ���� ��� ������������ ��������� ������ ���� ��� �����. ��� ����-������ ����� �������� � ���� ��� �������� ������� ��� ���, ��� ���������� ���������� �����. ��� ��������� ���� ��� ��������� ������:\r\n\r\n1. ��������: �������� ����������� ������ ������\r\n��������, ������ ���������� ����� ������ ����� �������� ��� �������� � �������� � ����.\r\n���������� �������� ��������, �������� �� �����, ����� ��� �����, ������, �������� � ����������������.\r\n2. ����� � ������:\r\n���������� � ��������� ������ ������� (������������, �����������, ����������������� � �. �.).\r\n�����������, ��� ����� ����� ������������� ��������� ������ � ������ ������� ���������.\r\n3. ������ � ���������:\r\n���������� �������� �� ������ ����������� ������� ������ ��� ������������� ���������.\r\n�������� �������� �� �������� ����������� ��������� ����� ������� � ������ �������.\r\n4. ��������� � �����:\r\n�������� ��������� ��������� ��� ������ (����, �����, ����������) � �� ������������/����������.\r\n����� ������������ �� ������ ���������, �������� ����������� ������������� (����, �������� ��������).\r\n5. ����������������:\r\n���������� � �������������� �������������� ������������, ����� ��� ���������� ���������, ����� ��� ��������, ������������ ������������.\r\n�����������, ��� ���������� ����� ���������������� ����� �������� �������� ������������� ������.\r\n6. �������� � �������������:\r\n�������� �������� ������ ������ �� ��������� �������������.\r\n����� ������ �� �������� �������� �����������, ���������� � ������ ������.\r\n7. ������ � �������������:\r\n���������� ������������ �� ����, ��� ������� �����, ������� ������������� �������.\r\n�����������, ��� ���������� � ������������ ����� ����� �������� � ��� ������������� � ������������ ��������.\r\n8. ������ � ��������:\r\n���������� ���� ����������� ��������� � �������� �� ������ �����������.\r\n���������� �������� ������������ ������� � ��������� ����� ��������.\r\n9. ���� �� �������:\r\n����� ������ �� ����� �� �������, ����� �� ������ ����� � ��������� � �������� ���������.\r\n10. ����������:\r\n���������� �������� ������� � ���������� ��������� � ������������� ������� � ������ ������.\r\n�� ��������� �������� ������������ ����������� �������, ����� ���� ������ ���� ��������� � ���������������.",
+      "preview": "blog_img/post3.jpg",
+      "is_published": true,
+      "created_at": "2024-01-02T15:46:47.119Z",
+      "views": 0
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 5,
+    "fields": {
+      "title": "��� ������ ������",
+      "slug": "esche-drugaya-statya",
+      "content": "����� ���������� ����� ��� ������ �� ������ ������ �� ������� ��� ������, �� � ���������� �� �������, ��������� � �������� �����. � ���� ������ �� ���������� ��������� ���� ������ ��� ������� � ����� ������������ �� �� ������ � �����.\r\n\r\n1. ������\r\n��������� ����� �������� ���������� ������� ��������� ����� �������� � ������� ���������. ������ ��� ����� ���� ����� ����������� � ������ � �����������. ������ ������ ������ ���������� � ������� ��������� ��� ��������� ���������.\r\n\r\n2. ���\r\n����� �� ���� �������� ������������, ���������� �����, ��� ������� ������ �������������� �����. ��� �������� � ������, �� ����� ���� ��������� ��������.\r\n\r\n3. ������\r\n��������� ����� ������������ ����� � �������. ��� ����� ���� ������������ ��� ���������� � ������� ��������� ��� ���������� ������ � �����.\r\n\r\n4. �������\r\n������� � ��� ������ ����� � �������� ������, ��������� ������ ��������� ���. ��� ����� ������������ � ������������ ���������� � ��������� ���������������� ������.\r\n\r\n5. ����������\r\n���������� � ��� ������������� �����, ������������� �� ������ �������. ��� ��������� � ������ � ����� ������, ��� ������ �� ��������� ������� ��� ����� � ������ ��� �������� ��������.\r\n\r\n6. ����\r\n������ � ������� ������� ������� ��������� ������������ � �������������. ���� � �������� ������� ����������� ����������� ����� � ������.\r\n\r\n��� ������� �����:\r\n������ ����� ���������: �������� �����, ��������������� ������ ����� ���������.\r\n\r\n������ ����� �����: ���� � ��� ���� ���� ��� �������� ��������, �������� ���������� � ������ � ����� �������� �����.\r\n\r\n����������� ���������: ��������� ������� ��������� �����, �������� ���� ����� ����� �������������� �����.\r\n\r\n���� �� ������:\r\n���������� ������: ���������� �������� ������ ���������, ����� �������� ��������� ����.\r\n\r\n��������� �����: ���������� �� ����� ����������, ��������� �������� ��� ������, ��������������� ��� ����������� ���� �����.\r\n\r\n���������������� ������: ��������� ��������� ���������������� ������, �������� ��� ���������� ������.\r\n\r\n����� ����� ��� ������ � ������ �������, ������� ������ �� ������������� � ������� ��� ������. ���������� ������������ �� ����� ������� ������������ ��� ����� � �������� ��������� �� ���������� ������ ���.",
+      "preview": "blog_img/post6.jpg",
+      "is_published": true,
+      "created_at": "2024-01-02T15:47:39.902Z",
+      "views": 2
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 6,
+    "fields": {
+      "title": "��� ������ ������",
+      "slug": "esche-tretya-statya",
+      "content": "����� ���������� ����� ��� ������ �� ������ ������ �� ������� ��� ������, �� � ���������� �� �������, ��������� � �������� �����. � ���� ������ �� ���������� ��������� ���� ������ ��� ������� � ����� ������������ �� �� ������ � �����.\r\n\r\n1. ������\r\n��������� ����� �������� ���������� ������� ��������� ����� �������� � ������� ���������. ������ ��� ����� ���� ����� ����������� � ������ � �����������. ������ ������ ������ ���������� � ������� ��������� ��� ��������� ���������.\r\n\r\n2. ���\r\n����� �� ���� �������� ������������, ���������� �����, ��� ������� ������ �������������� �����. ��� �������� � ������, �� ����� ���� ��������� ��������.\r\n\r\n3. ������\r\n��������� ����� ������������ ����� � �������. ��� ����� ���� ������������ ��� ���������� � ������� ��������� ��� ���������� ������ � �����.\r\n\r\n4. �������\r\n������� � ��� ������ ����� � �������� ������, ��������� ������ ��������� ���. ��� ����� ������������ � ������������ ���������� � ��������� ���������������� ������.\r\n\r\n5. ����������\r\n���������� � ��� ������������� �����, ������������� �� ������ �������. ��� ��������� � ������ � ����� ������, ��� ������ �� ��������� ������� ��� ����� � ������ ��� �������� ��������.\r\n\r\n6. ����\r\n������ � ������� ������� ������� ��������� ������������ � �������������. ���� � �������� ������� ����������� ����������� ����� � ������.\r\n\r\n��� ������� �����:\r\n������ ����� ���������: �������� �����, ��������������� ������ ����� ���������.\r\n\r\n������ ����� �����: ���� � ��� ���� ���� ��� �������� ��������, �������� ���������� � ������ � ����� �������� �����.\r\n\r\n����������� ���������: ��������� ������� ��������� �����, �������� ���� ����� ����� �������������� �����.\r\n\r\n���� �� ������:\r\n���������� ������: ���������� �������� ������ ���������, ����� �������� ��������� ����.\r\n\r\n��������� �����: ���������� �� ����� ����������, ��������� �������� ��� ������, ��������������� ��� ����������� ���� �����.\r\n\r\n���������������� ������: ��������� ��������� ���������������� ������, �������� ��� ���������� ������.\r\n\r\n����� ����� ��� ������ � ������ �������, ������� ������ �� ������������� � ������� ��� ������. ���������� ������������ �� ����� ������� ������������ ��� ����� � �������� ��������� �� ���������� ������ ���.",
+      "preview": "blog_img/post5.jpg",
+      "is_published": true,
+      "created_at": "2024-01-02T15:48:14.103Z",
+      "views": 1
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": 7,
+    "fields": {
+      "title": "���� ������",
+      "slug": "test-stati",
+      "content": "����� ���������� ����� ��� ������ �� ������ ������ �� ������� ��� ������, �� � ���������� �� �������, ��������� � �������� �����. � ���� ������ �� ���������� ��������� ���� ������ ��� ������� � ����� ������������ �� �� ������ � �����.\r\n\r\n1. ������\r\n��������� ����� �������� ���������� ������� ��������� ����� �������� � ������� ���������. ������ ��� ����� ���� ����� ����������� � ������ � �����������. ������ ������ ������ ���������� � ������� ��������� ��� ��������� ���������.\r\n\r\n2. ���\r\n����� �� ���� �������� ������������, ���������� �����, ��� ������� ������ �������������� �����. ��� �������� � ������, �� ����� ���� ��������� ��������.\r\n\r\n3. ������\r\n��������� ����� ������������ ����� � �������. ��� ����� ���� ������������ ��� ���������� � ������� ��������� ��� ���������� ������ � �����.\r\n\r\n4. �������\r\n������� � ��� ������ ����� � �������� ������, ��������� ������ ��������� ���. ��� ����� ������������ � ������������ ���������� � ��������� ���������������� ������.\r\n\r\n5. ����������\r\n���������� � ��� ������������� �����, ������������� �� ������ �������. ��� ��������� � ������ � ����� ������, ��� ������ �� ��������� ������� ��� ����� � ������ ��� �������� ��������.\r\n\r\n6. ����\r\n������ � ������� ������� ������� ��������� ������������ � �������������. ���� � �������� ������� ����������� ����������� ����� � ������.\r\n\r\n��� ������� �����:\r\n������ ����� ���������: �������� �����, ��������������� ������ ����� ���������.\r\n\r\n������ ����� �����: ���� � ��� ���� ���� ��� �������� ��������, �������� ���������� � ������ � ����� �������� �����.\r\n\r\n����������� ���������: ��������� ������� ��������� �����, �������� ���� ����� ����� �������������� �����.\r\n\r\n���� �� ������:\r\n���������� ������: ���������� �������� ������ ���������, ����� �������� ��������� ����.\r\n\r\n��������� �����: ���������� �� ����� ����������, ��������� �������� ��� ������, ��������������� ��� ����������� ���� �����.\r\n\r\n���������������� ������: ��������� ��������� ���������������� ������, �������� ��� ���������� ������.\r\n\r\n����� ����� ��� ������ � ������ �������, ������� ������ �� ������������� � ������� ��� ������. ���������� ������������ �� ����� ������� ������������ ��� ����� � �������� ��������� �� ���������� ������ ���.",
+      "preview": "blog_img/post1_JEd9hKf.jpg",
+      "is_published": true,
+      "created_at": "2024-01-02T15:48:43.380Z",
+      "views": 1
+    }
+  }
+]
