@@ -17,8 +17,20 @@
                 <li><a class="nav-link" href="{% url 'catalog:contacts' %}">Контакты</a></li>
             </ul>
             <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
-                <li><a class="nav-link" href="#"><img src="{% static 'img/user.svg' %}"></a></li>
-                <li><a class="nav-link" href="#"><img src="{% static 'img/cart.svg' %}"></a></li>
+                <!-- <li><a class="nav-link" href="#"><img src="{% static 'img/user.svg' %}"></a></li>
+                <li><a class="nav-link" href="#"><img src="{% static 'img/cart.svg' %}"></a></li> -->
+                <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                    {% if user.is_authenticated %}
+                        {% if user.first_name %}
+                            <small class="text-white mt-1 me-2 py-2">Привет, {{ user.first_name }}!</small>
+                        {% endif %}
+                        <a class="text-muted mt-1 me-2 py-2" href="#">Профиль</a>
+                        <a class="text-muted mt-1 me-2 py-2" href="{% url 'users:logout' %}">Выйти</a>
+                    {% else %}
+                        <a class="text-white mt-1 me-2 py-2" href="{% url 'users:login' %}">Войти</a>
+                        <a class="text-white mt-1 me-2 py-2" href="{% url 'users:register' %}">Регистрация</a>
+                    {% endif %}
+                </nav>
             </ul>
         </div>
     </div>
