@@ -20,6 +20,7 @@
             <p class="product-description px-5">{{ object.category.description }}</p>
             <p class="product-description px-5">{{ object.description }}</p>
             <p class="product-description px-5">{{ object.price }}</p>
+            <p class="product-description px-5">{{ object.owner|default:'Furni' }}</p>
             {% if version %}
                 <small class="d-block mb-3 text-muted">Актуальная версия:
                     <!--uncomment cycle and separator if more than one actual version available-->
@@ -32,10 +33,12 @@
                         <!--{% endfor %}-->
                 </small>
             {% endif %}
-            <a href="{% url 'catalog:item_update' object.pk %}"
-               class="m-1 btn btn-sm btn-outline-warning">Редактировать товар</a>
-            <a href="{% url 'catalog:item_delete' object.pk %}"
-               class="m-1 btn btn-sm btn-outline-danger">Удалить товар</a>
+            {% if user.is_authenticated %}
+                <a href="{% url 'catalog:item_update' object.pk %}"
+                   class="m-1 btn btn-sm btn-outline-warning">Редактировать товар</a>
+                <a href="{% url 'catalog:item_delete' object.pk %}"
+                   class="m-1 btn btn-sm btn-outline-danger">Удалить товар</a>
+            {% endif %}
         </div>
     </div>
 {% endblock %}

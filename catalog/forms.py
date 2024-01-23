@@ -23,7 +23,7 @@ class ProductForm(StyleFormMixin, forms.ModelForm):
 
     class Meta:
         model = Product
-        fields = '__all__'
+        exclude = ('owner',)
 
     def restrict_words(self, title):
         for word in self.RESTRICTED_WORDS:
