@@ -3,9 +3,13 @@
 {% load media_tag %}
 
 {% block content %}
-    <div class="col-12 mb-5">
-        <a class="btn btn-outline-primary" href="{% url 'catalog:item_create' %}">Добавить модель</a>
-    </div>
+    {% if user.is_authenticated %}
+        {% if perms.catalog.change_product %}
+            <div class="col-12 mb-5">
+                <a class="btn btn-outline-primary" href="{% url 'catalog:item_create' %}">Добавить модель</a>
+            </div>
+        {% endif %}
+    {% endif %}
     {% for object in object_list %}
         <div class="col-12 col-md-4 col-lg-4 mb-5 mb-md-0">
             <a class="product-item" href="{% url 'catalog:item' object.pk %}">

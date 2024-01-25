@@ -23,10 +23,16 @@
             </div>
         </div>
         <p>
+            {% if perms.blog.change_article %}
             <a href="{% url 'blog:edit_article' object.slug %}"
-               class="m-1 btn btn-sm btn-outline-warning">Редактировать статью</a>
+               class="m-1 btn btn-sm btn-outline-warning">Редактировать статью
+            </a>
+            {% endif %}
+            {% if perms.blog.delete_article %}
             <a href="{% url 'blog:delete_article' object.slug %}"
-               class="m-1 btn btn-sm btn-outline-danger">Удалить статью</a>
+               class="m-1 btn btn-sm btn-outline-danger">Удалить статью
+            </a>
+            {% endif %}
         </p>
     </div>
 {% endblock %}

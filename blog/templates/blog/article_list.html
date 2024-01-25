@@ -3,9 +3,11 @@
 {% load media_tag %}
 
 {% block content %}
+        {% if perms.blog.change_article %}
         <div class="col-12 mb-4">
             <a class="p-2 btn btn-outline-warning" href="{% url 'blog:create_article' %}">Добавить статью</a>
         </div>
+        {% endif %}
         {% for object in object_list %}
             <div class="col-12 col-sm-6 col-md-4 mb-5">
                 <div class="post-entry">
