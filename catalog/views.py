@@ -27,7 +27,7 @@ class ProductListView(ListView):
         return queryset
 
 
-class ProductDetailView(DetailView):
+class ProductDetailView(LoginRequiredMixin, DetailView):
     model = Product
     template_name = 'catalog/item.html'
 
@@ -38,10 +38,11 @@ class ProductDetailView(DetailView):
         return context
 
 
-class ProductCreateView(CreateView):
+class ProductCreateView(LoginRequiredMixin, PermissionRequiredMixin, CreateView):
     model = Product
     form_class = ProductForm
     success_url = reverse_lazy('catalog:index')
+    permission_required = 'catalog.add_product'
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -64,6 +65,7 @@ class ProductCreateView(CreateView):
 
 class ProductUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = Product
+    permission_required = 'catalog.change_product'
 
     def get_success_url(self):
         return reverse('catalog:item', kwargs={'pk': self.object.pk})

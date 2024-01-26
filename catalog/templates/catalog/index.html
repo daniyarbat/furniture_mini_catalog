@@ -11,6 +11,7 @@
         {% endif %}
     {% endif %}
     {% for object in object_list %}
+        {% if object.is_published or user.is_staff or user.is_superuser %}
         <div class="col-12 col-md-4 col-lg-4 mb-5 mb-md-0">
             <a class="product-item" href="{% url 'catalog:item' object.pk %}">
                 <img src="{% mediapath object.photo %}" alt="{{ object }}" class="img-fluid product-thumbnail">
@@ -21,6 +22,7 @@
                 </span>
             </a>
         </div>
+        {% endif %}
     {%  endfor %}
     {% include 'catalog/includes/inc_pagination.html' %}
 
