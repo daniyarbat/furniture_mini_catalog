@@ -27,7 +27,7 @@ class ProductListView(ListView):
         return queryset
 
 
-class ProductDetailView(LoginRequiredMixin, DetailView):
+class ProductDetailView(DetailView):
     model = Product
     template_name = 'catalog/item.html'
 
