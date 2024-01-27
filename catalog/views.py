@@ -3,7 +3,7 @@ from django.forms import inlineformset_factory
 from django.http import Http404
 from django.urls import reverse, reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
-from catalog.forms import ProductForm, VersionForm, ModeratorProductForm, CategoryForm
+from catalog.forms import ProductForm, VersionForm, CategoryForm
 from catalog.models import Product, Contact, Version, Category
 
 
