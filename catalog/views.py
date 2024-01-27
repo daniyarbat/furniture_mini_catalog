@@ -3,8 +3,8 @@ from django.forms import inlineformset_factory
 from django.http import Http404
 from django.urls import reverse, reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
-from catalog.forms import ProductForm, VersionForm, ModeratorProductForm
-from catalog.models import Product, Contact, Version
+from catalog.forms import ProductForm, VersionForm, ModeratorProductForm, CategoryForm
+from catalog.models import Product, Contact, Version, Category
 
 
 class ProductListView(ListView):
@@ -25,6 +25,14 @@ class ProductListView(ListView):
         elif not self.request.user.is_authenticated:
             queryset = queryset.filter(is_published=True).order_by('-time_update')
         return queryset
+
+
+class ProductCategoryListView(LoginRequiredMixin, ListView):
+    model = Product
+
+    def get_queryset(self):
+        category_pk = self.kwargs['pk']
+        return Product.objects.filter(category_id=category_pk)
 
 
 class ProductDetailView(DetailView):
@@ -65,15 +73,21 @@ class ProductCreateView(LoginRequiredMixin, PermissionRequiredMixin, CreateView)
 
 class ProductUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     model = Product
+    form_class = ProductForm
     permission_required = 'catalog.change_product'
 
     def get_success_url(self):
         return reverse('catalog:item', kwargs={'pk': self.object.pk})
 
-    def get_form_class(self):
-        if not self.request.user.is_superuser and self.request.user.has_perm('catalog.set_published'):
-            return ModeratorProductForm
-        return ProductForm
+    def get_form(self, form_class=None):
+
+        form = super().get_form(form_class)
+        if self.object.owner != self.request.user:
+            product_fields = [field_key for field_key in form.fields.keys()]
+            for field in product_fields:
+                if not self.request.user.has_perms([f'catalog.set_{field}']):
+                    del form.fields[field]
+        return form
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -103,7 +117,7 @@ class ProductUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     def test_func(self):
         obj = self.get_object()
         return (obj.owner == self.request.user
-                or self.request.user.has_perms(['catalog.change_product'])
+                or self.request.user.has_perms(('catalog.change_product',))
                 or self.request.user.is_superuser)
 
     def handle_no_permission(self):
@@ -123,4 +137,28 @@ class ContactListView(ListView):
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super().get_context_data(**kwargs)
         context['title'] = 'Контакты'
+        return context
+
+
+class CategoryCreateView(LoginRequiredMixin, PermissionRequiredMixin, CreateView):
+    model = Category
+    form_class = CategoryForm
+    permission_required = 'catalog.add_category'
+    success_url = reverse_lazy("catalog:category_list")
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = 'Создание категории'
+        return context
+
+
+class CategoryListView(ListView):
+    paginate_by = 6
+    model = Category
+    template_name = 'catalog/category_list.html'
+    ordering = ['-pk']
+
+    def get_context_data(self, *args, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = 'Категории товаров'
         return context

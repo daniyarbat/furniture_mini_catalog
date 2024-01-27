@@ -1,6 +1,7 @@
 from django import forms
 
-from catalog.models import Product, Version
+from blog.models import Article
+from catalog.models import Product, Version, Category
 
 
 class StyleFormMixin:
@@ -23,7 +24,7 @@ class ProductForm(StyleFormMixin, forms.ModelForm):
 
     class Meta:
         model = Product
-        exclude = ('owner', 'is_published')
+        fields = '__all__'
 
     def restrict_words(self, title):
         for word in self.RESTRICTED_WORDS:
@@ -51,3 +52,21 @@ class VersionForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Version
         fields = '__all__'
+
+
+class CategoryForm(forms.ModelForm):
+
+    class Meta:
+        model = Category
+        fields = '__all__'
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        for field_name, field in self.fields.items():
+            field.widget.attrs['class'] = 'form-control'
+
+
+class ArticleForm(StyleFormMixin, forms.ModelForm):
+    class Meta:
+        model = Article
+        fields = ('title', 'content', 'preview', 'is_published',)

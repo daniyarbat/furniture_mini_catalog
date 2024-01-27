@@ -37,10 +37,9 @@ class Product(models.Model):
         verbose_name_plural = 'Товары'
         ordering = ['pk']
         permissions = [
-            (
-                'set_published',
-                'Can publish products'
-            ),
+            ('set_is_published', 'Может публиковать товары'),
+            ('set_description', 'Может изменять описание товара'),
+            ('set_category', 'Может изменять категорию товара'),
         ]
 
 

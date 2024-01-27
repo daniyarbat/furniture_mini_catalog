@@ -12,12 +12,27 @@
                             {% if object %}
                                 Сохранить изменения
                             {% else %}
-                                Создать статью
+                                Создать категорию
                             {% endif %}
                         </button>
                     </div>
                 </div>
             </div>
+            {% if formset %}
+            <div class="col-6">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-body">
+                        {{ formset.management_form }}
+                        {% for form in formset.forms %}
+                            {{ form.as_p }}
+                            {% if not forloop.last %}
+                                <hr class="m-4"/>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
         </form>
     </div>
 {% endblock %}

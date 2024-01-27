@@ -4,20 +4,31 @@ from django.urls import reverse_lazy, reverse
 from django.views.generic import CreateView, ListView, DetailView, UpdateView, DeleteView
 
 from blog.models import Article
+from catalog.forms import ArticleForm
 
 
 class ArticleCreateView(PermissionRequiredMixin, CreateView):
     model = Article
-    fields = ('title', 'content', 'preview', 'is_published',)
+    form_class = ArticleForm
     success_url = reverse_lazy('blog:blog')
     permission_required = 'blog.add_article'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = 'Создание статьи'
+        return context
 
 
 class ArticleUpdateView(PermissionRequiredMixin, UpdateView):
     model = Article
-    fields = ('title', 'content', 'preview', 'is_published',)
+    form_class = ArticleForm
     success_url = reverse_lazy('blog:view_article')
     permission_required = 'blog.change_article'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = 'Редактирование статьи'
+        return context
 
     def form_valid(self, form):
         if form.is_valid():
