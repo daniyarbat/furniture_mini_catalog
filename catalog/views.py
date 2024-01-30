@@ -160,7 +160,7 @@ class CategoryListView(ListView):
     ordering = ['-pk']
 
     def get_queryset(self):
-        return get_cache_for_categories ( Category )
+        return get_cache_for_categories(Category)
 
     def get_context_data(self, *args, **kwargs):
         context = super().get_context_data(**kwargs)
